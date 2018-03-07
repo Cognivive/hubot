@@ -50,7 +50,7 @@
     "hubot": "./bin/hubot"
   },
   "scripts": {
-    "start": "bin/hubot",
+    "start": "bin/hubot --adapter slack",
     "pretest": "standard",
     "test": "nyc --reporter=html --reporter=text mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
